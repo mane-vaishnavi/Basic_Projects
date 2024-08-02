@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+.navbar{
+	height:40px;
+	width:100%;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	background-color:#1f1c1c;
+	color:#dadae4;
+	display: flex;
+	align-items: center;
+}
+.panel-ops p{
+    display: inline;
+	font-weight: 20px;
+	
+}
+.panel-ops{
+	width: 70%;
+	font-size: 0.75rem;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.panel-ops a{
+	text-decoration: none;
+	color: #dadae4;
+}
+.apply-logo{
+	margin-left:130px;
+	width: 30px;
+}
+.apply-logo i{
+	color: white;
+}
+.bag-logo{
+	margin-left: 50px;
+}
+.bag-logo i{
+	color: white;
+}
+.search-logo{
+	margin-left:10px;
+	width:20px ;
+}
+.search-logo i{
+	color: white;
+}
+/** section **/  
+.section-panel{
+	background-color:#1f1c1c;
+	color: white;
+	height: 400px;
+	width: 1318px;
+	
+	margin-top: 40px;
+}
+.search-panel{
+    background-color:#1f1c1c;
+	color:#dadae4;  
+	margin-top: 10px;
+    
+}
+.search-input{
+    background-color:#1f1c1c; 
+    color:#dadae4;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 750;
+    font-size: 25px;
+    border:0px solid transparent;
+	
+}
+.search-icon{
+    display: flex;
+    color: rgb(134, 134, 139);
+	padding-left: 120px;
+    padding-top: 60px;	
+}
+.icon-box{
+	padding-top: 17px;
+	size: 200;
+}
+ul a {
+    display: block;
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 90px;
+    text-decoration: none;
+	color: white;
+ }
+.points{
+   font-size: 0.80rem;
+   margin: 10px;
+   margin-left: 90px;
+}
+ul p{
+   font-weight: normal;
+   font-size: 0.80rem;
+   color:#9e9ea7;
+   margin-top: 45px;
+   margin-left: 90px;
+
+}

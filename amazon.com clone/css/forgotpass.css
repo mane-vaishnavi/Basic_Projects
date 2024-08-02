@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.navbar{
+    height: 70px;
+    margin-top: 30px;
+	background-color:white;
+    border-top: 1px solid rgb(223, 217, 217);
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.nav-logo{
+	height:50px;
+	width:110px;
+}
+.logo{
+	background-image: url("../images/amz.logo.jpg");
+	background-size: cover;
+	height: 40px;
+	width:110%;
+    margin-top: 30px;
+}
+.in{
+    padding-left: 122px;
+    padding-top: 11px;
+    color: #111111;
+   font-size: 14px;
+}
+.sign-box{
+    height: 330px;
+    width: 350px;
+    border: 1px solid rgb(223, 217, 217);
+    color: #111111;
+    border-radius: 10px;
+    margin-left: 490px;
+    margin-top: 5px ;
+   
+}
+h1{
+    font-size: 28px;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin: 20px;
+    padding-left: 8px;
+    color: #111111;
+}
+.lable-box{
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 30px;
+}
+.lable-box1{
+    padding-left: 115px;
+    color: #0066C0;
+}
+.email-input{
+    height: 31px;
+    width: 296px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.button-box{
+    height: 31px;
+    width: 296px;
+    margin-left: 25px;
+    border-radius: 9px;
+    background-color:#FFD814;
+    border: 1px solid #FFD814;
+}
+.button-box a{
+    text-decoration: none;
+    color: #111111;
+}
+.remember-box{
+    font-size: 13px;
+    padding-left: 30px;
+    margin: 5px; 
+    color: #111111;
+}
+.box{
+    height: 11px;
+    width: 11px;
+}
+.remember-box a{
+    color: #0066C0;
+    text-decoration: none;
+}
+.or-option{
+    font-size: 13px;
+   margin: 20px;
+   padding-left: 140px;
+   color: rgb(143, 136, 136); 
+}
+.lable-box2{
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 26px;
+    padding-top: 5px;
+    margin: 10px;
+}
+.borderr{
+    height: 200px;
+    width: 350px;
+    margin-top: 20px;
+}
+.foot-panel{
+    width: 30pxpx;
+    height: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+.button-note{
+    font-size: 14px;
+    color:rgb(141, 137, 137); 
+    margin-top: 5px;
+}
+.OTP{
+    height: 31px;
+    width: 296px;
+    font-size: 12px;
+    margin-left: 25px;
+    border-radius: 9px;
+    border: 1px solid rgb(204, 200, 200);
+    background-color:rgb(245, 252, 240);
+}
+.OTP a{
+    text-decoration: none;
+    color: rgb(82, 84, 85);
+}
+.OTP:hover{
+    color: #0066C0;
+}
+.foot-panel2{
+    width: 30pxpx;
+    height: 30px;
+    padding-top: 30px;
+    text-align: center; 
+}
+.page1-panel2 a{
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #0066C0;
+}
+.page2-panel2{
+    font-size: 12px;
+    color:rgb(168, 166, 166);
+    padding-left: 15px;
+    margin-top: 15px;
+}

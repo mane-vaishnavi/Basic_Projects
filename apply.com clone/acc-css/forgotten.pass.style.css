@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+.navbar{
+	height:40px;
+	width:100%;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	background-color:rgba(29, 28, 28, 0.911);
+	color:white;
+	display: flex;
+	align-items: center;
+}
+.panel-ops p{
+    display: inline;
+	font-weight: 20px;
+	
+}
+.panel-ops{
+	width: 70%;
+	font-size: 0.75rem;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.panel-ops a{
+	text-decoration: none;
+	color:rgb(212, 202, 202)
+}
+.apply-logo{
+	margin-left:130px;
+	width: 30px;
+}
+.apply-logo i{
+	color:rgb(212, 202, 202);
+}
+.bag-logo{
+	margin-left: 50px;
+}
+.bag-logo i{
+	color:rgb(212, 202, 202)
+}
+.search-logo{
+	margin-left:10px;
+	width:20px ;
+}
+.search-logo i{
+	color:rgb(212, 202, 202)
+}
+/** section **/
+.section-panel{
+	background-color:white;
+	color: #1f1c1c;
+	height: 400px;
+	width: 1300px;
+}
+
+.sign{
+    font-size: 34px;
+    font-weight: bolder;
+    color: #353434;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+ }
+ .inform{
+	padding-left: 80px;
+
+ }
+.section-bar{
+	height: 95px;
+	width: 100%;
+	background-color:white;
+    padding-top: 37px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	border-bottom:1px solid#dfe4e9;
+	
+}
+.section-option{
+	width: 50%;
+	font-size: 24px;
+	color: #111111;
+}
+.section-ops a{
+	color: #333333;
+	margin-left: 30px;
+	font-size: 13px;
+	display: inline;
+	text-decoration: none;	
+}
+form{
+    padding-top:35px;
+    padding-left: 80px;
+}
+.password-input{
+    width: 460px;
+    font-size:17px;
+	padding: 14px;
+    padding-bottom:16px;
+    color:#1f1c1c; 
+    border-radius: 9px;
+	border-color: rgb(26, 115, 232);
+}
+.button-box{
+	height: 40px;
+	width: 170px;
+	color: white;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: rgb(45, 153, 202);
+}
+.button{
+    padding-left: 215px;
+}

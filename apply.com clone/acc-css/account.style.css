@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+.navbar{
+	height:40px;
+	width:100%;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	background-color:#dadae4;
+	color:#1f1c1c;
+	display: flex;
+	align-items: center;
+}
+.panel-ops p{
+    display: inline;
+	font-weight: 20px;
+	
+}
+.panel-ops{
+	width: 70%;
+	font-size: 0.75rem;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.panel-ops a{
+	text-decoration: none;
+	color: #1f1c1c;
+}
+.apply-logo{
+	margin-left:130px;
+	width: 30px;
+}
+.apply-logo i{
+	color:  #1f1c1c;
+}
+.bag-logo{
+	margin-left: 50px;
+}
+.bag-logo i{
+	color: #1f1c1c;
+}
+.search-logo{
+	margin-left:10px;
+	width:20px ;
+}
+.search-logo i{
+	color:  #1f1c1c;
+}
+/** section **/
+.section-panel{
+	background-color:white;
+	color: #1f1c1c;
+	height: 900px;
+	width: 1300px;
+	display: flex;
+	margin-top: 40px;
+}
+.points{
+   font-size: 24px;
+   font-weight: 600;
+   margin-top: 80px;
+   margin-left: 500px;
+   color: #555353;
+}
+form{
+    padding-top:35px;
+    padding-left: 410px;
+}
+.email-input{
+    width: 460px;
+    font-size:17px;
+	padding: 16px;
+    padding-bottom:18px;
+    color:#1f1c1c; 
+    border-radius: 9px;
+	border-color: rgb(26, 115, 232);
+}
+.remember-box{
+    padding-left: 160px;
+      
+}
+.forgote-box{
+    font-size: 16px;
+	padding-left: 540px;
+	padding-top: 40px;
+	color:  rgb(26, 115, 232);
+	text-decoration: none;
+    
+}
+.create-box{
+    font-size: 16px;
+	padding-left: 480px;
+    padding-top: 10px;	
+}
+.create-box a{
+	color:  rgb(26, 115, 232);
+	text-decoration: none;
+}
